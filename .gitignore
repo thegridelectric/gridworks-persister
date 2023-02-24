@@ -8,3 +8,26 @@
 /docs/_build/
 /src/*.egg-info/
 __pycache__/
+
+
+
+.DS_Store
+.vscode
+.idea
+
+
+
+# scratch files and folders
+scratch*
+cook*
+
+
+# Code generation airtable
+CodeGenerationTools/GridworksCore/SSoT/Airtable.xml
+CodeGenerationTools/GridworksCore/SassyMQ/
+.ssotme
+
+
+# Ignore coverage
+.coverage
+htmlcov
