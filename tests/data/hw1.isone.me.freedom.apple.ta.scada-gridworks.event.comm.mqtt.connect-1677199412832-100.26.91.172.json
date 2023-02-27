@@ -1,0 +1,18 @@
+{
+  "Header": {
+    "Src": "hw1.isone.me.freedom.apple.ta.scada",
+    "Dst": "",
+    "MessageType": "gridworks.event.comm.mqtt.connect",
+    "MessageId": "7b8eae53-5b40-4e92-aaf3-6c17b819907a",
+    "AckRequired": true,
+    "TypeName": "gridworks.header"
+  },
+  "Payload": {
+    "MessageId": "7b8eae53-5b40-4e92-aaf3-6c17b819907a",
+    "PeerName": "local",
+    "Src": "hw1.isone.me.freedom.apple.ta.scada",
+    "TimeNS": 1677199411617845510,
+    "TypeName": "gridworks.event.comm.mqtt.connect"
+  },
+  "TypeName": "gw"
+}

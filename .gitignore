@@ -21,6 +21,9 @@ __pycache__/
 scratch*
 cook*
 
+# DB
+*.sqlite3
+
 
 # Code generation airtable
 CodeGenerationTools/GridworksCore/SSoT/Airtable.xml

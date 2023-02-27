@@ -1,0 +1,60 @@
+{
+  "Header": {
+    "Src": "hw1.isone.me.freedom.apple.ta.scada",
+    "Dst": "",
+    "MessageType": "gridworks.event.snapshot.spaceheat.100",
+    "MessageId": "2f998e32-046b-44b4-8a26-491ba7e43053",
+    "AckRequired": true,
+    "TypeName": "gridworks.header"
+  },
+  "Payload": {
+    "MessageId": "2f998e32-046b-44b4-8a26-491ba7e43053",
+    "TimeNS": 1677197700015593180,
+    "Src": "hw1.isone.me.freedom.apple.ta.scada",
+    "TypeName": "gridworks.event.snapshot.spaceheat.100",
+    "snap": {
+      "FromGNodeAlias": "hw1.isone.me.freedom.apple.ta.scada",
+      "FromGNodeInstanceId": "f24436b3-e66c-405f-9414-2e4f71d5b1dc",
+      "Snapshot": {
+        "AboutNodeAliasList": [
+          "a.tank1.elts.relay",
+          "a.tank1.elts",
+          "a.distsourcewater.temp",
+          "a.distreturnwater.temp",
+          "a.hotstore.out.temp",
+          "a.hotstore.in.temp",
+          "a.heatpump.condensorloopsource.temp",
+          "a.heatpump.condensorloopreturn.temp",
+          "a.buffer.out.temp",
+          "a.tank1.temp1",
+          "a.tank1.temp2",
+          "a.tank1.temp3",
+          "a.outside"
+        ],
+        "ValueList": [
+          1, 4413, 58627, 54358, 73390, 54811, 53030, 53501, 54431, 72597,
+          72485, 71687, -10062
+        ],
+        "ReportTimeUnixMs": 1677197700015,
+        "TypeAlias": "telemetry.snapshot.spaceheat.100",
+        "TelemetryNameList": [
+          "5a71d4b3",
+          "af39eec9",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1",
+          "c89d0ba1"
+        ]
+      },
+      "TypeAlias": "snapshot.spaceheat.100"
+    }
+  },
+  "TypeName": "gw"
+}

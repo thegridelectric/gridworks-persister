@@ -1,0 +1,20 @@
+{
+  "Header": {
+    "Src": "hw1.isone.me.freedom.apple",
+    "Dst": "",
+    "MessageType": "gt.dispatch.boolean.100",
+    "MessageId": "",
+    "AckRequired": false,
+    "TypeName": "gridworks.header"
+  },
+  "Payload": {
+    "AboutNodeAlias": "a.tank1.elts.relay",
+    "ToGNodeAlias": "hw1.isone.me.freedom.apple.ta.scada",
+    "FromGNodeAlias": "hw1.isone.me.freedom.apple",
+    "FromGNodeId": "9ef63568-cca4-4970-a525-c29ca3cfc122",
+    "RelayState": 0,
+    "SendTimeUnixMs": 1677233066726,
+    "TypeAlias": "gt.dispatch.boolean.100"
+  },
+  "TypeName": "gw"
+}

@@ -1,0 +1,167 @@
+{
+  "Header": {
+    "Src": "hw1.isone.me.freedom.apple.ta.scada",
+    "Dst": "",
+    "MessageType": "gridworks.event.gt.sh.status.110",
+    "MessageId": "592ab1ea-8f95-4581-bf46-e9923734d702",
+    "AckRequired": true,
+    "TypeName": "gridworks.header"
+  },
+  "Payload": {
+    "MessageId": "592ab1ea-8f95-4581-bf46-e9923734d702",
+    "TimeNS": 1677203400003206509,
+    "Src": "hw1.isone.me.freedom.apple.ta.scada",
+    "TypeName": "gridworks.event.gt.sh.status.110",
+    "status": {
+      "SlotStartUnixS": 1677203100,
+      "SimpleTelemetryList": [
+        {
+          "ValueList": [1],
+          "ReadTimeUnixMsList": [1677203234096],
+          "ShNodeAlias": "a.tank1.elts.relay",
+          "TypeAlias": "gt.sh.simple.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "5a71d4b3"
+        }
+      ],
+      "AboutGNodeAlias": "hw1.isone.me.freedom.apple.ta",
+      "BooleanactuatorCmdList": [],
+      "FromGNodeAlias": "hw1.isone.me.freedom.apple.ta.scada",
+      "MultipurposeTelemetryList": [
+        {
+          "AboutNodeAlias": "a.tank1.elts",
+          "ValueList": [4469],
+          "ReadTimeUnixMsList": [1677203222831],
+          "SensorNodeAlias": "a.m",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "af39eec9"
+        },
+        {
+          "AboutNodeAlias": "a.distsourcewater.temp",
+          "ValueList": [58496, 58478, 58465, 58348, 58236],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.distreturnwater.temp",
+          "ValueList": [54048, 54065, 54070, 54109, 54109],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.hotstore.out.temp",
+          "ValueList": [69145, 69145, 69120, 69120, 69137],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.hotstore.in.temp",
+          "ValueList": [54459, 54514, 54475, 54503, 54509],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.heatpump.condensorloopsource.temp",
+          "ValueList": [53230, 52853, 52576, 52907, 53511],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.heatpump.condensorloopreturn.temp",
+          "ValueList": [53539, 52821, 52486, 53425, 53653],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.buffer.out.temp",
+          "ValueList": [55389, 55481, 55435, 55378, 55275],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.tank1.temp1",
+          "ValueList": [68503, 68487, 68520, 68462, 68479],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.tank1.temp2",
+          "ValueList": [68769, 68810, 68760, 68794, 68844],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.tank1.temp3",
+          "ValueList": [69204, 69297, 69272, 69246, 69297],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        },
+        {
+          "AboutNodeAlias": "a.outside",
+          "ValueList": [-9881, -9513, -9743, -9610, -9376],
+          "ReadTimeUnixMsList": [
+            1677203100075, 1677203165157, 1677203234095, 1677203296005,
+            1677203365176
+          ],
+          "SensorNodeAlias": "a.s.analog.temp",
+          "TypeAlias": "gt.sh.multipurpose.telemetry.status.100",
+          "TelemetryNameGtEnumSymbol": "c89d0ba1"
+        }
+      ],
+      "FromGNodeId": "f24436b3-e66c-405f-9414-2e4f71d5b1dc",
+      "StatusUid": "6ed525ac-2e53-419c-8c4a-90aaa2f895e6",
+      "ReportingPeriodS": 300,
+      "TypeAlias": "gt.sh.status.110"
+    }
+  },
+  "TypeName": "gw"
+}

@@ -1,0 +1,12 @@
+{
+  "Header": {
+    "Src": "hw1.isone.ct.newhaven.orange1.scada",
+    "Dst": "",
+    "MessageType": "p",
+    "MessageId": "",
+    "AckRequired": false,
+    "TypeName": "gridworks.header"
+  },
+  "Payload": [4679, "p"],
+  "TypeName": "gw"
+}

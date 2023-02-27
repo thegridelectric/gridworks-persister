@@ -1,0 +1,17 @@
+{
+  "Header": {
+    "Src": "hw1.isone.me.freedom.apple",
+    "Dst": "",
+    "MessageType": "gt.sh.cli.atn.cmd.110",
+    "MessageId": "",
+    "AckRequired": false,
+    "TypeName": "gridworks.header"
+  },
+  "Payload": {
+    "FromGNodeAlias": "hw1.isone.me.freedom.apple",
+    "SendSnapshot": true,
+    "FromGNodeId": "9ef63568-cca4-4970-a525-c29ca3cfc122",
+    "TypeAlias": "gt.sh.cli.atn.cmd.110"
+  },
+  "TypeName": "gw"
+}

@@ -21,7 +21,7 @@ Changelog = "https://github.com/thegridelectric/gridworks-persister/releases"
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
 click = ">=8.0.1"
-gridworks = "^0.1.2"
+gridworks = "^0.1.3"
 gridworks-protocol = "^0.2.8"
 boto3 = "^1.26.3"
 paho-mqtt = "^1.6.1"
