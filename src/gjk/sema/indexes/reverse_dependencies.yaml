@@ -222,6 +222,7 @@ types:
     '003':
       used_by:
       - report.event:003
+      - report.event:004
   sim.pico.tank.module.component.gt:
     '000':
       used_by:
@@ -478,6 +479,7 @@ formats:
     - report.event:000
     - report.event:002
     - report.event:003
+    - report.event:004
     - report:001
     - report:002
     - report:003
@@ -617,6 +619,7 @@ formats:
     - report.event:000
     - report.event:002
     - report.event:003
+    - report.event:004
     - report:001
     - report:002
     - report:003
@@ -697,6 +700,7 @@ formats:
     - report.event:000
     - report.event:002
     - report.event:003
+    - report.event:004
     - report:001
     - report:002
     - report:003

@@ -1,6 +1,6 @@
 metadata:
   registry_version: "1.0"
-  last_updated: "2026-09-09T16:00:00Z"
+  last_updated: "2026-09-15T14:00:00Z"
   maintainer: "gridworks-energy"
 
 formats:
@@ -1672,12 +1672,23 @@ types:
             - "uuid4.str"
 
   report.event:
-    latest_version: "003"
+    latest_version: "004"
     owner: gridworks-energy
     versioning_strategy: "literal"
     description: "Event wrapper for a report payload with message tracking metadata."
 
     versions:
+      "004":
+        status: "published"
+        schema_url: "https://schemas.electricity.works/types/report.event/004"
+        created: "2026-05-06T00:00:00Z"
+        summary: "- Axioms: reinstate ReportIdentityPropagation, ReportCreatedTimePropagation and ReportSourcePropagation"
+        direct_dependencies:
+          structural:
+            - "left.right.dot"
+            - "report:003"
+            - "utc.milliseconds"
+            - "uuid4.str"
       "003":
         schema_url: "https://schemas.electricity.works/types/report.event/003"
         created: "2026-03-30T19:01:47Z"

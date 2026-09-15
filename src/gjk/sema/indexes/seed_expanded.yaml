@@ -1,11 +1,12 @@
 metadata:
   generated_from: indexes/public_registry.yaml
-  generated_at: '2026-09-10T13:47:55Z'
+  generated_at: '2026-09-15T17:51:21Z'
   note: Transitive closure of initial_targets
 initial_targets:
 - report.event:000
 - report.event:002
 - report.event:003
+- report.event:004
 - layout.lite:001
 - layout.lite:002
 - layout.lite:003
@@ -383,6 +384,8 @@ worklist:
         path: definitions/types/report.event/002.yaml
       '003':
         path: definitions/types/report.event/003.yaml
+      '004':
+        path: definitions/types/report.event/004.yaml
     scada.params:
       '000':
         path: definitions/types/scada.params/000.yaml

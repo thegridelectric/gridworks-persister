@@ -30,9 +30,10 @@ from gjk.sema.types import ReportEvent
 from gjk.sema.types.old_versions.report_001 import Report001
 from gjk.sema.types.old_versions.report_event_000 import ReportEvent000
 from gjk.sema.types.old_versions.report_event_002 import ReportEvent002
+from gjk.sema.types.old_versions.report_event_003 import ReportEvent003
 from gjk.zone_heat_call_pseudo_channel import ZoneHeatCallPseudoChannel
 
-ReportEventType = ReportEvent | ReportEvent002 | ReportEvent000
+ReportEventType = ReportEvent | ReportEvent003 | ReportEvent002 | ReportEvent000
 
 
 class SemaEnumPseudoChannel(PseudoChannel):
@@ -361,8 +362,21 @@ class ReportEventPersistor:
         )
 
     def persist_v003(
+        self, from_alias: str, time_received: datetime, report: ReportEvent003
+    ):
+        return MessagePersistenceInfo(
+            id=report.message_id,
+            created_at=datetime.fromtimestamp(report.time_created_ms / 1000, tz=UTC),
+            additional_db_operations=lambda db: self.persist_readings(
+                db, from_alias, report
+            ),
+        )
+
+    def persist_v004(
         self, from_alias: str, time_received: datetime, report: ReportEvent
     ):
+        # 004 restores the propagation axioms, so message_id is Report.Id and
+        # time_created_ms is Report.MessageCreatedMs by construction.
         return MessagePersistenceInfo(
             id=report.message_id,
             created_at=datetime.fromtimestamp(report.time_created_ms / 1000, tz=UTC),
