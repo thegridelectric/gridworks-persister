@@ -16,7 +16,7 @@
 initial_targets:
   types:
     report.event:
-      versions: ["000", "002", "003"]
+      versions: ["000", "002", "003", "004"]
     layout.lite:
       # Published set only (013+ are staging): gjk is a prod service, so
       # its snapshot is publication-grade; widen when scada promotes.
